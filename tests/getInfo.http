@@ -1,0 +1,5 @@
+GET http://localhost:8080/getinfo?cep=89201440
+
+###
+
+GET https://cloudrun-weather-166103868787.us-central1.run.app/getinfo?cep=89201440
