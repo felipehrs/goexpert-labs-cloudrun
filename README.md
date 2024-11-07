@@ -35,4 +35,6 @@ Desenvolver um sistema em Go que receba um CEP, identifica a cidade e retorna o 
 
 ### Informações sosbre a entrega 
 
-- Endereço para acesso pelo cloudrun: no arquivo [getInfo.http](./tests/getInfo.http)
+- Para rodar a aplicaçao: ``` go run .\cmd\server\main.go ```
+- Para build ``` docker build -t gcr.io/goexpert-hrs/cloudrun-weather . ```
+- Para testar através do CloudRun: https://cloudrun-weather-166103868787.us-central1.run.app/weather/89201440
